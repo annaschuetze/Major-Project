@@ -1,5 +1,3 @@
-/*
-
 // function to load text from another file into a DOM element
 function loadFileInto(fromFile, whereTo) {
 
@@ -25,21 +23,21 @@ function loadFileInto(fromFile, whereTo) {
     
 }
 
-
-
 //end recipe () object constructor
-function Recipe(a, b, c, d) {
+function Recipe(a, b, c, d, e) {
     
     //set some object properties 
     this.name = a;
     this.ingredientsFile = b;
     this.directionsFile = c;
     this.imageSource = d;
+    this.descriptionFile = e;
 
    this.display = function() {
         document.querySelector("#hero h1").innerHTML = this.name;
         loadFileInto(this.ingredientsFile, '#block2');
         loadFileInto(this.directionsFile, '#block3');
+        loadFileInto(this.descriptionFile, '#description');
         document.querySelector("#hero").style.backgroundImage = "url(" + this.imageSource +")"
         document.title = "Recipe: " + this.name;
        
@@ -58,21 +56,31 @@ this.addToNav = function(){
 
 }
 }
-let Breakfast = new Recipe("Breakfast", "caesar-ingredients.html", "caesar-directions.html", "https://assets.bonappetit.com/photos/59274167d1434b7e3cee2887/1:1/w_1920,c_limit/easy-homemade-caesar-dressing.jpg")
+let Pancakes = new Recipe("Pancakes", "pancakes-ingredients.html", "pancakes-directions.html", "https://cafedelites.com/wp-content/uploads/2016/10/PERFECT-Best-Fluffy-Pancakes-IMAGE-450.jpg", "pancakes-description.html")
 
-let Lunch = new Recipe("Lunch", "balsamic-ingredients.html", "balsamic-directions.html", "https://barefeetinthekitchen.com/wp-content/uploads/2019/03/Balsamic-Vinaigrette-re-edit-3-1-of-1-2048x1463.jpg")
+let Scramble = new Recipe("Scramble", "scramble-ingredients.html", "scramble-directions.html", "https://tmbidigitalassetsazure.blob.core.windows.net/rms3-prod/attachments/37/1200x1200/exps7553_SD163324B08_13_10b.jpg", "scramble-description.html")
 
-let Dinner = new Recipe("Dinner", "sesame-ingredients.html", "sesame-directions.html", "https://www.recipetineats.com/wp-content/uploads/2016/12/Asian-Sesame-Dressing-4.jpg")
+let eggsBenedict = new Recipe("Eggs Benedict", "eggsbenedict-ingredients.html", "eggsbenedict-directions.html", "https://static01.nyt.com/images/2021/04/30/dining/ar-eggs-benedict/ar-eggs-benedict-articleLarge.jpg?w=1280&q=75", "eggsbenedict-description.html")
 
-console.log(Breakfast.imageSource);
+let Waffles = new Recipe("Waffles", "waffles-ingredients.html", "waffles-directions.html", "https://storcpdkenticomedia.blob.core.windows.net/media/recipemanagementsystem/media/recipe-media-files/recipes/retail/x17/2020_belgian-style-waffles_16700_760x580.jpg?ext=.jpg", "waffles-description.html")
+
+let overnightOats = new Recipe("Overnight Oats", "overnightoats-ingredients.html", "overnightoats-directions.html", "https://cdn.loveandlemons.com/wp-content/uploads/2022/09/overnight-oats.jpg", "overnightoats-description.html")
+
+let acaiBowl = new Recipe("Acai Bowls", "acaibowl-ingredients.html", "acaibowl-directions.html", "https://healthfulblondie.com/wp-content/uploads/2022/06/Homemade-Healthy-Protein-Acai-Bowl.jpg", "acaibowl-description.html")
 
 // don't do anything until the DOM loads
 document.addEventListener("DOMContentLoaded", function() {
     
-    Breakfast.addToNav();
+    Pancakes.addToNav();
     
-    Lunch.addToNav();
+    Scramble.addToNav();
     
-    Dinner.addToNav();
+    eggsBenedict.addToNav();
+    
+    Waffles.addToNav();
+    
+    overnightOats.addToNav();
+    
+    acaiBowl.addToNav();
 });
-*/  
+  
