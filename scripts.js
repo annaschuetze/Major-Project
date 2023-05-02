@@ -56,36 +56,36 @@ this.addToNav = function(){
 
 }
 }
-let capreseSandwich = new Recipe("Caprese Sandwich", "caprese-ingredients.html", "caprese-directions.html", "https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_1:1/k%2FPhoto%2FRecipes%2F2021-06-summer-caprese-sandwich%2FKitchn_SummerCapreseSando_518", "caprese-description.html")
+let tacoSoup = new Recipe("Taco Soup", "tacosoup-ingredients.html", "tacosoup-directions.html", "https://hips.hearstapps.com/del.h-cdn.co/assets/17/34/2048x1152/hd-aspect-1503419036-taco-soup-delish.jpg?resize=1200:*", "tacosoup-description.html")
 
-let mediterraneanBowl = new Recipe("Mediterranean Bowl", "medbowl-ingredients.html", "medbowl-directions.html", "https://www.eatingbirdfood.com/wp-content/uploads/2022/11/mediterranean-quinoa-bowl-hero-674x950.jpg", "medbowl-description.html")
+let vodkaSaucePasta = new Recipe("Vodka Sauce Pasta", "vodkapasta-ingredients.html", "vodkapasta-directions.html", "https://lexiscleankitchen.com/wp-content/uploads/2015/03/penne-alla-vodka5.jpg", "vodkapasta-description.html")
 
-let tomatoSoup = new Recipe("Tomato Soup", "tomatosoup-ingredients.html", "tomatosoup-directions.html", "https://hungryhealthyhappy.com/wp-content/uploads/2021/09/Easy-Tomato-Soup-featured.jpg", "tomatosoup-description.html")
+let eggRollBowls = new Recipe("Egg Roll Bowls", "eggroll-ingredients.html", "eggroll-directions.html", "https://www.the-girl-who-ate-everything.com/wp-content/uploads/2019/03/egg-roll-in-a-bowl-8.jpg", "eggroll-description.html")
 
-let ramenNoodles = new Recipe("Ramen Noodles", "ramen-ingredients.html", "ramen-directions.html", "https://pinchofyum.com/wp-content/uploads/Homemade-Ramen-2-3.jpg", "ramen-description.html")
+let brusselSprouts = new Recipe("Brussel Sprouts", "brussel-ingredients.html", "brussel-directions.html", "https://assets.bonappetit.com/photos/635049dac8b1604157059608/1:1/w_1920,c_limit/1019-brussels-sprouts-lede.jpg", "brussel-description.html")
 
-let chickenCaesarWrap = new Recipe("Chicken Caesar Wrap", "caesarwrap-ingredients.html", "caesarwrap-directions.html", "https://tastesbetterfromscratch.com/wp-content/uploads/2020/04/Chicken-Caesar-Wrap-1.jpg", "caesarwrap-description.html")
+let breadSalad = new Recipe("Bread Salad", "breadsalad-ingredients.html", "breadsalad-directions.html", "https://www.kitchenkonfidence.com/wp-content/uploads/2021/05/Panzanella-Salad-4.jpg", "breadsalad-description.html")
 
-let stuffedBellPeppers = new Recipe("Stuffed Bell Peppers", "stuffedpeppers-ingredients.html", "stuffedpeppers-directions.html", "https://hips.hearstapps.com/hmg-prod/images/delish-classic-stuffed-peppers-horizontal-1538065876.jpg?crop=1xw:0.8435993572576326xh;center,top", "stuffedpeppers-description.html")
+let pizzaLogs = new Recipe("Pizza Logs", "pizzalogs-ingredients.html", "pizzalogs-directions.html", "https://www.savoryexperiments.com/wp-content/uploads/2023/03/Pizza-Logs-10.jpg", "pizzalogs-description.html")
 
-let pastaSalad = new Recipe("Pasta Salad", "pastasalad-ingredients.html", "pastasalad-directions.html", "https://thetoastykitchen.com/wp-content/uploads/2019/03/classic-pasta-salad-toasty-kitchen-4.jpg", "pastasalad-description.html")
+let smashBurger = new Recipe("Smash Burger", "smashburger-ingredients.html", "smashburger-directions.html", "https://images.squarespace-cdn.com/content/v1/55cd2992e4b09e646ff13894/1603491152359-UZ3YMGGXT5HGXSG56PFX/IMG_9138%2B%25282%2529%2B2%2Bcopy.jpg?format=1000w", "smashburger-description.html")
+
 
 // don't do anything until the DOM loads
 document.addEventListener("DOMContentLoaded", function() {
     
-    capreseSandwich.addToNav();
+    tacoSoup.addToNav();
     
-    mediterraneanBowl.addToNav();
+    vodkaSaucePasta.addToNav();
     
-    tomatoSoup.addToNav();
+    eggRollBowls.addToNav();
     
-    ramenNoodles.addToNav();
+    brusselSprouts.addToNav();
     
-    chickenCaesarWrap.addToNav();
+    breadSalad.addToNav();
     
-    stuffedBellPeppers.addToNav();
+    pizzaLogs.addToNav();
     
-    pastaSalad.addToNav();
-    
+    smashBurger.addToNav();
 });
   

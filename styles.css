@@ -1,8 +1,3 @@
-#logo {
-    position: absolute;
-    left: 30%;
-}
-
 h1, h2, h3 {
   font-family: Bangla MN;
   color: #006400
@@ -34,8 +29,7 @@ li span {
 
 #navbar {
     position: relative;
-    border: 0;
-    width: 90%;
+    width: 100%;
     height:5vh;
     background-color: lightyellow;
     text-align: center;
@@ -47,7 +41,7 @@ li span {
     padding: 0;
     margin: 0;
     list-style-type: none;
-    left: 20%;    
+    left: 23%;    
 }
 
 #navbar ul li {
@@ -62,9 +56,6 @@ li span {
   width: 100%;
   background-size: cover;
   background-position: center center;
-  margin: 0;
-  padding: 0;
-  border: 0;
 }
 
 #hero h1{
