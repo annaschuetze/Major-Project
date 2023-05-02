@@ -1,0 +1,111 @@
+body {
+    width: 100vw;
+}
+
+#logo {
+    position: absolute;
+    left: 30%;
+}
+
+
+h1, h2, h3 {
+  font-family: Bangla MN;
+  color: #006400
+}
+
+h1, h2, h3{
+  text-transform: uppercase;
+  font-size: 18 px;
+  margin-bottom: 0.3em;
+}
+
+#welcome{
+    position: absolute;
+    top: 70%;
+    left: 5%;
+    font-size: 30px;
+    color: darkgreen;
+   text-align: center;
+}
+
+ul, ol{
+  margin-top: 0;
+  padding-left: 1em;
+}
+
+li span {
+  font-style: italic;
+}
+
+#bar {
+    left: 30%;
+    top: 5px;
+    position: absolute;
+    display: flex;
+    gap: 20px;
+    z-index: 5;
+}
+
+
+#navbar ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    
+}
+
+#navbar ul li {
+    float: left;
+    padding: 10px 20px 0 10px;
+    color: black;
+}
+
+#hero {
+  position: relative;
+  height: 50vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+}
+
+#hero h1{
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  bottom: 10px;
+  left: 10px;
+  font-size: 48px;
+  color: #fff;
+  text-shadow:0 0 10px #444;
+}
+
+#columns {
+  position: relative;
+}
+
+#columns div{
+  width: 50%;
+  float: left;
+}
+#columns:after{
+  content:'';
+  display: block;
+  clear: both;
+}
+
+.copyright{
+  font-family: Arial;
+  font-size: 9px;
+  font-style: italic;
+
+}
+#block1 {
+  background-color: lightgreen;
+}
+#block2 {
+  background-color: lightyellow;
+}
+
+#block3 {
+  background-color: lightyellow; 
+}
