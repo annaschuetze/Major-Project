@@ -56,31 +56,36 @@ this.addToNav = function(){
 
 }
 }
-let Pancakes = new Recipe("Pancakes", "pancakes-ingredients.html", "pancakes-directions.html", "https://cafedelites.com/wp-content/uploads/2016/10/PERFECT-Best-Fluffy-Pancakes-IMAGE-450.jpg", "pancakes-description.html")
+let capreseSandwich = new Recipe("Caprese Sandwich", "caprese-ingredients.html", "caprese-directions.html", "https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_1:1/k%2FPhoto%2FRecipes%2F2021-06-summer-caprese-sandwich%2FKitchn_SummerCapreseSando_518", "caprese-description.html")
 
-let Scramble = new Recipe("Scramble", "scramble-ingredients.html", "scramble-directions.html", "https://tmbidigitalassetsazure.blob.core.windows.net/rms3-prod/attachments/37/1200x1200/exps7553_SD163324B08_13_10b.jpg", "scramble-description.html")
+let mediterraneanBowl = new Recipe("Mediterranean Bowl", "medbowl-ingredients.html", "medbowl-directions.html", "https://www.eatingbirdfood.com/wp-content/uploads/2022/11/mediterranean-quinoa-bowl-hero-674x950.jpg", "medbowl-description.html")
 
-let eggsBenedict = new Recipe("Eggs Benedict", "eggsbenedict-ingredients.html", "eggsbenedict-directions.html", "https://static01.nyt.com/images/2021/04/30/dining/ar-eggs-benedict/ar-eggs-benedict-articleLarge.jpg?w=1280&q=75", "eggsbenedict-description.html")
+let tomatoSoup = new Recipe("Tomato Soup", "tomatosoup-ingredients.html", "tomatosoup-directions.html", "https://hungryhealthyhappy.com/wp-content/uploads/2021/09/Easy-Tomato-Soup-featured.jpg", "tomatosoup-description.html")
 
-let Waffles = new Recipe("Waffles", "waffles-ingredients.html", "waffles-directions.html", "https://storcpdkenticomedia.blob.core.windows.net/media/recipemanagementsystem/media/recipe-media-files/recipes/retail/x17/2020_belgian-style-waffles_16700_760x580.jpg?ext=.jpg", "waffles-description.html")
+let ramenNoodles = new Recipe("Ramen Noodles", "ramen-ingredients.html", "ramen-directions.html", "https://pinchofyum.com/wp-content/uploads/Homemade-Ramen-2-3.jpg", "ramen-description.html")
 
-let overnightOats = new Recipe("Overnight Oats", "overnightoats-ingredients.html", "overnightoats-directions.html", "https://cdn.loveandlemons.com/wp-content/uploads/2022/09/overnight-oats.jpg", "overnightoats-description.html")
+let chickenCaesarWrap = new Recipe("Chicken Caesar Wrap", "caesarwrap-ingredients.html", "caesarwrap-directions.html", "https://tastesbetterfromscratch.com/wp-content/uploads/2020/04/Chicken-Caesar-Wrap-1.jpg", "caesarwrap-description.html")
 
-let acaiBowl = new Recipe("Acai Bowls", "acaibowl-ingredients.html", "acaibowl-directions.html", "https://healthfulblondie.com/wp-content/uploads/2022/06/Homemade-Healthy-Protein-Acai-Bowl.jpg", "acaibowl-description.html")
+let stuffedBellPeppers = new Recipe("Stuffed Bell Peppers", "stuffedpeppers-ingredients.html", "stuffedpeppers-directions.html", "https://hips.hearstapps.com/hmg-prod/images/delish-classic-stuffed-peppers-horizontal-1538065876.jpg?crop=1xw:0.8435993572576326xh;center,top", "stuffedpeppers-description.html")
+
+let pastaSalad = new Recipe("Pasta Salad", "pastasalad-ingredients.html", "pastasalad-directions.html", "https://thetoastykitchen.com/wp-content/uploads/2019/03/classic-pasta-salad-toasty-kitchen-4.jpg", "pastasalad-description.html")
 
 // don't do anything until the DOM loads
 document.addEventListener("DOMContentLoaded", function() {
     
-    Pancakes.addToNav();
+    capreseSandwich.addToNav();
     
-    Scramble.addToNav();
+    mediterraneanBowl.addToNav();
     
-    eggsBenedict.addToNav();
+    tomatoSoup.addToNav();
     
-    Waffles.addToNav();
+    ramenNoodles.addToNav();
     
-    overnightOats.addToNav();
+    chickenCaesarWrap.addToNav();
     
-    acaiBowl.addToNav();
+    stuffedBellPeppers.addToNav();
+    
+    pastaSalad.addToNav();
+    
 });
   
